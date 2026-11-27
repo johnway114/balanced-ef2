@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "timestamp_utc": "2026-11-27T01:44:17.900522+00:00",
+  "script": "check.py",
+  "script_sha256": "683376690363e95f6d8aa5434c285a936809747f63ac7d557c331b95a7c4a87f",
+  "args": [],
+  "exit_code": 0,
+  "passed": true,
+  "runtime_seconds": 2.2223,
+  "python_version": "3.14.7",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "git_commit": null,
+  "stdout": "{\"anchored_maximal_families_by_size\": {\"7\": 36, \"10\": 882, \"12\": 1098, \"14\": 900, \"18\": 230, \"21\": 2, \"26\": 4}, \"cover_proof\": {\"compiler\": \"Apple clang version 21.0.0 (clang-2100.1.1.101)\", \"cover_source_sha256\": \"e2db46fbce060e10c37dade27483f8de582227f041a892f8e9f623b138be899b\", \"excluded_colors\": 12, \"input_sha256\": \"1bcc48ffa94d68c2658da894ed566b2878bbd9db2af9ec18da8392acbbd310e1\", \"minimum_demand\": 15, \"nodes\": 397502}, \"fano_cover_size\": 14, \"omitted_size_upper_bound\": 14, \"other_large_classes\": 33600, \"six_list_max_bad_choices_per_row\": {\"6\": 2, \"7\": 5}, \"structured_classes\": 492, \"vertices\": 252}",
+  "stderr": "",
+  "parsed_output": {
+    "anchored_maximal_families_by_size": {
+      "7": 36,
+      "10": 882,
+      "12": 1098,
+      "14": 900,
+      "18": 230,
+      "21": 2,
+      "26": 4
+    },
+    "cover_proof": {
+      "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+      "cover_source_sha256": "e2db46fbce060e10c37dade27483f8de582227f041a892f8e9f623b138be899b",
+      "excluded_colors": 12,
+      "input_sha256": "1bcc48ffa94d68c2658da894ed566b2878bbd9db2af9ec18da8392acbbd310e1",
+      "minimum_demand": 15,
+      "nodes": 397502
+    },
+    "fano_cover_size": 14,
+    "omitted_size_upper_bound": 14,
+    "other_large_classes": 33600,
+    "six_list_max_bad_choices_per_row": {
+      "6": 2,
+      "7": 5
+    },
+    "structured_classes": 492,
+    "vertices": 252
+  }
+}
