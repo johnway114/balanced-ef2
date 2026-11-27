@@ -2,6 +2,8 @@
 
 **With up to ten indivisible goods, twelve people in any two prescribed nonempty groups are guaranteed a balanced EF2 split, provided nobody values a bundle less when a good is added.** These valuations are called *monotone*; they need not be additive. For ten people with monotone valuations and **no limit on the number of goods**, the guarantee remains open. Alipour and Jafari prove the all-goods result for nine people. On ten goods our exact computation narrows their chromatic interval [10,14] to **[13,14]**. The finite result is **unrefereed**; we claim neither the exact threshold nor priority.
 
+A short unrefereed research note, with the archived receipt, reproduction instructions and limitations, is in [NOTE.md](NOTE.md).
+
 Two further written results apply to **any number of goods**:
 
 - [Ten people suffice if each person's valuation depends on at most four goods](FOUR-GOOD-SUPPORT.md). The four can differ for each person and the valuations need not be additive.
@@ -36,4 +38,4 @@ PYTHONPATH=econ-lab/src python3 -m econ_lab verify balanced-ef2/check.py
 
 Alternatively, run `python3 check.py` inside this directory (Python 3.10+, a C++20 compiler named `c++` or set `CXX`). The Python script regenerates the families without a solver library and builds `cover.cpp` in a temporary directory. Its JSON output binds the cover code and generated input by SHA-256; the harness also hashes the Python script. No download, GPU, random seed or saved solver state is required. [Receipt](RECEIPT.json) · [research ledger, stopping decision and method feedback](STATE.md).
 
-Credit: original threshold, graph correspondence and upper construction belong to the cited authors. Local research, code and audit used OpenAI Codex Astra, Sol, Terra and Luna roles. Computational independence here means separate implementations and contexts, **not** outside human review. Kept local; not published.
+Credit: original threshold, graph correspondence and upper construction belong to the cited authors. Local research, code and audit used OpenAI Codex Astra, Sol, Terra and Luna roles. Computational independence here means separate implementations and contexts, **not** outside human review. This repository accompanies the unrefereed note [NOTE.md](NOTE.md).
